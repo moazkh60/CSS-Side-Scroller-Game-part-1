@@ -1,0 +1,50 @@
+ <!DOCTYPE html>   
+    <html lang="en">
+        <head>     
+            <meta charset="utf-8">    
+            <title>SIDE Scroller GAME</title>   
+		
+		<style>		
+			body{
+				background-image: url("Images/clouds.jpg");
+				-webkit-animation: game-background 10s linear infinite;
+				animation: game-background 10s linear infinite;
+			}
+			
+			@-webkit-keyframes game-background {
+			from {background-position: 0 0;}
+			to {background-position: -800px 0;}
+			}
+			 
+			@keyframes game-background {
+			from {background-position: 0 0;}
+			to {background-position: -800px 0;}
+			}
+						
+			#down:target {
+				transform:translateY(500px);
+			}
+												
+			#down{
+				position:fixed;				
+				z-index:1;
+			}
+			
+								
+		</style>			
+        </head> 
+    <body>		        
+	
+
+	<div class ="player" style="text-align:center">
+		<a href="#up"><button>UP</button></a>
+		<a href="#down"><button>DOWN</button></a>		
+	</div>
+	
+	
+	<div id="down">
+		<img src="Images/player.png"/>
+	</div>
+	
+	</body>
+	</html>
