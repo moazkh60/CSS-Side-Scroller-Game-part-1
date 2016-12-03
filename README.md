@@ -1,4 +1,4 @@
-# Project Title
+# CSS Side Scroller Game part 1
 
 This is the initial part of side scroller game. This is just a starter project in which a sky background is side scrolling giving the effect of a plane flying in the sky in 2D
 
